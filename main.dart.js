@@ -6392,7 +6392,7 @@ var $async$a5A=P.D(function(b,c){if(b===1)return P.E(c,s)
 while(true)switch(t){case 0:P.cj(a)
 q=u.N
 t=3
-return P.M(G.bL("http://83.212.75.78:8000/app/doctor/patients/",P.L(["authorization","Token "+H.a(a)],q,q)),$async$a5A)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/doctor/patients/",P.L(["authorization","Token "+H.a(a)],q,q)),$async$a5A)
 case 3:p=c
 if(p.b===200){r=C.t.a5(0,B.bo(U.bn(p.e).c.a.h(0,"charset")).a5(0,p.x))
 t=1
@@ -6471,7 +6471,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/user/outgoing/requests/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$L_)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/user/outgoing/requests/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$L_)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -6480,7 +6480,7 @@ t=4
 break
 case 5:P.cj(b)
 t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/user/outgoing/requests/?member_id="+H.a(b)),P.L(["authorization","Token "+H.a(a)],p,p)),$async$L_)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/user/outgoing/requests/?member_id="+H.a(b)),P.L(["authorization","Token "+H.a(a)],p,p)),$async$L_)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -6983,7 +6983,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/care_team/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KT)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/care_team/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KT)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -6991,7 +6991,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/care_team/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KT)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/care_team/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KT)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -7291,7 +7291,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/health/score/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ey)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/health/score/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ey)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -7299,7 +7299,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/health_score/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ey)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/health_score/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ey)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -7331,12 +7331,12 @@ while(true)switch(t){case 0:r=u.N
 t=c==null?2:4
 break
 case 2:t=5
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/post/"+H.a(b)+"/user/remove/like/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$CI)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/post/"+H.a(b)+"/user/remove/like/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$CI)
 case 5:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 t=3
 break
 case 4:t=6
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/post/"+H.a(b)+"/user/remove/like/?member_id="+H.a(c)),P.L(["authorization","Token "+H.a(a)],r,r)),$async$CI)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/post/"+H.a(b)+"/user/remove/like/?member_id="+H.a(c)),P.L(["authorization","Token "+H.a(a)],r,r)),$async$CI)
 case 6:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 case 3:return P.F(null,s)}})
 return P.G($async$CI,s)},
@@ -7348,12 +7348,12 @@ r=u.N
 t=c==null?2:4
 break
 case 2:t=5
-return P.M(G.df("http://83.212.75.78:8000"+("/app/user/like/post/"+H.a(b)+"/"),null,P.L(["authorization","Token "+H.a(a)],r,r)),$async$B_)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/user/like/post/"+H.a(b)+"/"),null,P.L(["authorization","Token "+H.a(a)],r,r)),$async$B_)
 case 5:if(e.b!==201)throw H.c(P.af("Failed to load post"))
 t=3
 break
 case 4:t=6
-return P.M(G.df("http://83.212.75.78:8000"+("/app/user/like/post/"+H.a(b)+"/?member_id="+H.a(c)),null,P.L(["authorization","Token "+H.a(a)],r,r)),$async$B_)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/user/like/post/"+H.a(b)+"/?member_id="+H.a(c)),null,P.L(["authorization","Token "+H.a(a)],r,r)),$async$B_)
 case 6:if(e.b!==201)throw H.c(P.af("Failed to load post"))
 case 3:return P.F(null,s)}})
 return P.G($async$B_,s)},
@@ -7902,7 +7902,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/user/notifications/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KW)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/user/notifications/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KW)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -7910,7 +7910,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/user/notifications/?member_id="+H.a(b)),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KW)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/user/notifications/?member_id="+H.a(b)),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KW)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -8056,7 +8056,7 @@ var $async$yy=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:r=u.N
 q=P.L(["authorization","Token "+H.a(b)],r,r)
 t=2
-return P.M(G.df("http://83.212.75.78:8000/app/care_team/",P.L(["user_id",J.b9(a)],r,r),q),$async$yy)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/care_team/",P.L(["user_id",J.b9(a)],r,r),q),$async$yy)
 case 2:if(d.b!==201)throw H.c(P.af("Failed to load post"))
 return P.F(null,s)}})
 return P.G($async$yy,s)},
@@ -8067,11 +8067,11 @@ t=f==null?2:4
 break
 case 2:r=P.L(["authorization","Token "+H.a(a)],p,p)
 t=5
-return P.M(G.a8p("http://83.212.75.78:8000/app/handle/user/incoming/requests/",P.L(["notification_id",b,"message",c,"requestStatus",e,"sender_id",d],p,p),r),$async$rm)
+return P.M(G.a8p("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/handle/user/incoming/requests/",P.L(["notification_id",b,"message",c,"requestStatus",e,"sender_id",d],p,p),r),$async$rm)
 case 5:if(h.b!==204)throw H.c(P.af("Failed to load post"))
 t=3
 break
-case 4:r="http://83.212.75.78:8000"+("/app/handle/user/incoming/requests/?member_id="+H.a(f))
+case 4:r="https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/handle/user/incoming/requests/?member_id="+H.a(f))
 q=P.L(["authorization","Token "+H.a(a)],p,p)
 t=6
 return P.M(G.a8p(r,P.L(["notification_id",b,"message",c,"requestStatus",e,"sender_id",d],p,p),q),$async$rm)
@@ -8623,7 +8623,7 @@ Ou:function(a){var t=0,s=P.H(u.z),r,q,p
 var $async$Ou=P.D(function(b,c){if(b===1)return P.E(c,s)
 while(true)switch(t){case 0:q=u.N
 t=3
-return P.M(G.bL("http://83.212.75.78:8000/app/fetch/doctors/potential/patients/",P.L(["authorization","Token "+H.a(a)],q,q)),$async$Ou)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/fetch/doctors/potential/patients/",P.L(["authorization","Token "+H.a(a)],q,q)),$async$Ou)
 case 3:p=c
 if(p.b===200){r=C.t.a5(0,B.bo(U.bn(p.e).c.a.h(0,"charset")).a5(0,p.x))
 t=1
@@ -8636,7 +8636,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/fetch/non_care_team/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KX)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/fetch/non_care_team/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KX)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -8644,7 +8644,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/get/non_care_team/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KX)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/get/non_care_team/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KX)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -9610,11 +9610,11 @@ t=c==null?2:4
 break
 case 2:r=P.L(["authorization","Token "+H.a(b),"content-type","application/json"],p,p)
 t=5
-return P.M(G.df("http://83.212.75.78:8000/app/circle_of_trust/",C.t.cf(P.L(["invited",o.i(a)],p,p)),r),$async$pJ)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/circle_of_trust/",C.t.cf(P.L(["invited",o.i(a)],p,p)),r),$async$pJ)
 case 5:if(e.b!==201)throw H.c(P.af("Failed to load post"))
 t=3
 break
-case 4:r="http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/circle_of_trust/")
+case 4:r="https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/circle_of_trust/")
 q=P.L(["authorization","Token "+H.a(b),"content-type","application/json"],p,p)
 t=6
 return P.M(G.df(r,C.t.cf(P.L(["invited",o.i(a)],p,p)),q),$async$pJ)
@@ -10772,7 +10772,7 @@ xW:function xW(){},
 a5B:function(a){var t=0,s=P.H(u.z),r,q
 var $async$a5B=P.D(function(b,c){if(b===1)return P.E(c,s)
 while(true)switch(t){case 0:t=3
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/fetch/"+H.a(a)+"/patient/"),null),$async$a5B)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/fetch/"+H.a(a)+"/patient/"),null),$async$a5B)
 case 3:q=c
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -10839,12 +10839,12 @@ t=c==null?2:4
 break
 case 2:r=P.L(["authorization","Token "+H.a(b),"content-type","application/json"],p,p)
 t=5
-return P.M(G.df("http://83.212.75.78:8000/app/friends/",C.t.cf(P.L(["receiver",o.i(a)],p,p)),r),$async$pK)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/friends/",C.t.cf(P.L(["receiver",o.i(a)],p,p)),r),$async$pK)
 case 5:if(e.b!==201)throw H.c(P.af("Failed to load post"))
 t=3
 break
 case 4:P.cj("add friend for protected member")
-r="http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/friends/")
+r="https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/friends/")
 q=P.L(["authorization","Token "+H.a(b),"content-type","application/json"],p,p)
 t=6
 return P.M(G.df(r,C.t.cf(P.L(["receiver",o.i(a)],p,p)),q),$async$pK)
@@ -10857,7 +10857,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/fetch/non_friends/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KZ)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/fetch/non_friends/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KZ)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -10865,7 +10865,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/get/non_friends/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KZ)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/get/non_friends/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KZ)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -11777,7 +11777,7 @@ while(true)switch(t){case 0:t=c==null?2:3
 break
 case 2:r=u.N
 t=4
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/remove/friend/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$a62)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/remove/friend/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$a62)
 case 4:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 case 3:return P.F(null,s)}})
 return P.G($async$a62,s)}},K={
@@ -13591,7 +13591,7 @@ this.b=b},
 a5z:function(a){var t=0,s=P.H(u.z),r,q
 var $async$a5z=P.D(function(b,c){if(b===1)return P.E(c,s)
 while(true)switch(t){case 0:t=3
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/fetch/"+H.a(a)+"/doctor/"),null),$async$a5z)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/fetch/"+H.a(a)+"/doctor/"),null),$async$a5z)
 case 3:q=c
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -13611,7 +13611,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/posts/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$L0)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$L0)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -13619,7 +13619,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/posts/?member_id="+H.a(b)),P.L(["authorization","Token "+H.a(a)],p,p)),$async$L0)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/posts/?member_id="+H.a(b)),P.L(["authorization","Token "+H.a(a)],p,p)),$async$L0)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -15068,7 +15068,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/health/score/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ax)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/health/score/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ax)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -15076,7 +15076,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/health_score/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ax)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/health_score/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$Ax)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -15290,11 +15290,11 @@ t=c==null?2:4
 break
 case 2:r=P.L(["authorization","Token "+H.a(b),"content-type","application/json"],p,p)
 t=5
-return P.M(G.df("http://83.212.75.78:8000/app/request/doctor/",C.t.cf(P.L(["doctor_id",o.i(a)],p,p)),r),$async$pI)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/request/doctor/",C.t.cf(P.L(["doctor_id",o.i(a)],p,p)),r),$async$pI)
 case 5:if(e.b!==201)throw H.c(P.af("Failed to load post"))
 t=3
 break
-case 4:r="http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/care_team/")
+case 4:r="https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/care_team/")
 q=P.L(["authorization","Token "+H.a(b),"content-type","application/json"],p,p)
 t=6
 return P.M(G.df(r,C.t.cf(P.L(["doctor_id",o.i(a)],p,p)),q),$async$pI)
@@ -15307,7 +15307,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/fetch/non_circle_of_trust/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KY)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/fetch/non_circle_of_trust/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KY)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -15315,7 +15315,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/non_circle_of_trust/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KY)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/non_circle_of_trust/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KY)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -16048,12 +16048,12 @@ while(true)switch(t){case 0:r=u.N
 t=c==null?2:4
 break
 case 2:t=5
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/remove/doctor/"+H.a(b)+"/care_team/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$L3)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/remove/doctor/"+H.a(b)+"/care_team/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$L3)
 case 5:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 t=3
 break
 case 4:t=6
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/remove/doctor/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$L3)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(c)+"/remove/doctor/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$L3)
 case 6:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 case 3:return P.F(null,s)}})
 return P.G($async$L3,s)}},O={cv:function cv(a,b){this.a=a
@@ -16259,7 +16259,7 @@ a5C:function(a){var t=0,s=P.H(u.z),r,q,p,o,n
 var $async$a5C=P.D(function(b,c){if(b===1)return P.E(c,s)
 while(true)switch(t){case 0:o=u.N
 t=3
-return P.M(G.bL("http://83.212.75.78:8000/app/posts/",P.L(["authorization","Token "+H.a(a)],o,o)),$async$a5C)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/",P.L(["authorization","Token "+H.a(a)],o,o)),$async$a5C)
 case 3:n=c
 if(n.b===200){o=n.e
 q=B.bo(U.bn(o).c.a.h(0,"charset"))
@@ -16295,7 +16295,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/circle_of_trust/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KU)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/circle_of_trust/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KU)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -16303,7 +16303,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/circle_of_trust/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KU)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/circle_of_trust/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KU)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -16666,7 +16666,7 @@ var $async$Ow=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:P.cj(a)
 q=u.N
 t=3
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/post/"+H.a(b)+"/likes/"),P.L(["authorization","Token "+H.a(a)],q,q)),$async$Ow)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/post/"+H.a(b)+"/likes/"),P.L(["authorization","Token "+H.a(a)],q,q)),$async$Ow)
 case 3:p=d
 if(p.b===200){r=C.t.a5(0,B.bo(U.bn(p.e).c.a.h(0,"charset")).a5(0,p.x))
 t=1
@@ -16781,12 +16781,12 @@ while(true)switch(t){case 0:r=u.N
 t=c==null?2:4
 break
 case 2:t=5
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/delete/outgoing/request/"+H.a(b)),P.L(["authorization","Token "+H.a(a)],r,r)),$async$z7)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/delete/outgoing/request/"+H.a(b)),P.L(["authorization","Token "+H.a(a)],r,r)),$async$z7)
 case 5:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 t=3
 break
 case 4:t=6
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/delete/outgoing/request/"+H.a(b)+"?member_id="+H.a(c)),P.L(["authorization","Token "+H.a(a)],r,r)),$async$z7)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/delete/outgoing/request/"+H.a(b)+"?member_id="+H.a(c)),P.L(["authorization","Token "+H.a(a)],r,r)),$async$z7)
 case 6:if(e.b!==204)throw H.c(P.af("Failed to load post"))
 case 3:return P.F(null,s)}})
 return P.G($async$z7,s)}},Q={t1:function t1(a,b,c,d){var _=this
@@ -17112,7 +17112,7 @@ a5y:function(a,b){var t=0,s=P.H(u.z),r,q,p,o,n
 var $async$a5y=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:o=u.N
 t=3
-return P.M(G.bL("http://83.212.75.78:8000/app/posts/"+J.b9(b)+"/comments",P.L(["authorization","Token "+H.a(a)],o,o)),$async$a5y)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/"+J.b9(b)+"/comments",P.L(["authorization","Token "+H.a(a)],o,o)),$async$a5y)
 case 3:n=d
 if(n.b===200){o=n.e
 q=B.bo(U.bn(o).c.a.h(0,"charset"))
@@ -17170,7 +17170,7 @@ var $async$Ov=P.D(function(b,c){if(b===1)return P.E(c,s)
 while(true)switch(t){case 0:P.cj(a)
 q=u.N
 t=3
-return P.M(G.bL("http://83.212.75.78:8000/app/fetch/protected/members/",P.L(["authorization","Token "+H.a(a)],q,q)),$async$Ov)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/fetch/protected/members/",P.L(["authorization","Token "+H.a(a)],q,q)),$async$Ov)
 case 3:p=c
 if(p.b===200){r=C.t.a5(0,B.bo(U.bn(p.e).c.a.h(0,"charset")).a5(0,p.x))
 t=1
@@ -17181,7 +17181,7 @@ Tp:function(a,b){var t=0,s=P.H(u.z),r
 var $async$Tp=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:r=u.N
 t=2
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/rremove/protected/member/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$Tp)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/rremove/protected/member/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$Tp)
 case 2:if(d.b!==204)throw H.c(P.af("Failed to load post"))
 return P.F(null,s)}})
 return P.G($async$Tp,s)},
@@ -17257,7 +17257,7 @@ a63:function(a,b){var t=0,s=P.H(u.z),r
 var $async$a63=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:r=u.N
 t=2
-return P.M(G.hy("http://83.212.75.78:8000"+("/app/doctor/patient/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$a63)
+return P.M(G.hy("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/doctor/patient/"+H.a(b)+"/"),P.L(["authorization","Token "+H.a(a)],r,r)),$async$a63)
 case 2:if(d.b!==204)throw H.c(P.af("Failed to load post"))
 return P.F(null,s)}})
 return P.G($async$a63,s)}},A={qd:function qd(a,b,c,d,e,f){var _=this
@@ -17820,7 +17820,7 @@ while(true)switch(t){case 0:p=u.N
 t=b==null?3:5
 break
 case 3:t=6
-return P.M(G.bL("http://83.212.75.78:8000/app/friends/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KV)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/friends/",P.L(["authorization","Token "+H.a(a)],p,p)),$async$KV)
 case 6:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -17828,7 +17828,7 @@ break}else throw H.c(P.af("Failed to load post"))
 t=4
 break
 case 5:t=7
-return P.M(G.bL("http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/friends/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KV)
+return P.M(G.bL("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(b)+"/friends/"),P.L(["authorization","Token "+H.a(a)],p,p)),$async$KV)
 case 7:q=d
 if(q.b===200){r=C.t.a5(0,B.bo(U.bn(q.e).c.a.h(0,"charset")).a5(0,q.x))
 t=1
@@ -51468,7 +51468,7 @@ Q.DP.prototype={
 A:function(a){var t=null,s=S.cQ(new F.bs(new Y.c7(C.y,6,C.C),C.n,C.n,C.n),t,t,t,t,t,C.M),r=u.p,q=M.al(t,T.aL(H.b([U.a9Q(D.aai("https://images.unsplash.com/photo-1521448414971-c35223aec21b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"))],r),C.m,C.q,C.o),t,t,t,t,t,t,t,t,t),p=S.cQ(new F.bs(C.n,C.n,new Y.c7(C.w,1,C.C),C.n),t,t,t,t,t,C.M)
 return M.al(t,T.bI(H.b([new T.a0(1,C.l,q,t),new T.a0(5,C.l,T.aL(H.b([M.al(t,T.bI(H.b([L.u(J.b9(this.c),t,t,t,t,A.bC(t,t,t,t,t,t,t,t,t,t,t,20,t,t,t,t,!0,t,t,t,t,t,t),t)],r),C.m,C.q,C.o),t,t,p,t,t,t,t,t,t),L.u(J.b9(this.e),t,t,t,t,t,t)],r),C.m,C.q,C.o),t)],r),C.m,C.q,C.o),t,t,s,t,t,new V.Y(0,0,0,20),t,t,t)}}
 Q.qk.prototype={
-X:function(){return new Q.FS(this.c,this.e,"http://83.212.75.78:8000",D.bQ(),C.j)}}
+X:function(){return new Q.FS(this.c,this.e,"https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000",D.bQ(),C.j)}}
 Q.FS.prototype={
 qn:function(){var t=0,s=P.H(u.H),r=this
 var $async$qn=P.D(function(a,b){if(a===1)return P.E(b,s)
@@ -51502,7 +51502,7 @@ Q.Xp.prototype={
 $0:function(){var t=0,s=P.H(u.P),r=this,q,p,o,n
 var $async$$0=P.D(function(a,b){if(a===1)return P.E(b,s)
 while(true)switch(t){case 0:q=r.a
-p="http://83.212.75.78:8000/app/posts/"+J.b9(q.f)+"/comments/"
+p="https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/"+J.b9(q.f)+"/comments/"
 o=u.N
 n=P.L(["authorization",C.c.H("Token ",q.d.b)],o,o)
 t=2
@@ -51525,7 +51525,7 @@ var $async$oj=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:p=u.N
 o=P.L(["content-type","application/json"],p,p)
 t=3
-return P.M(G.df("http://83.212.75.78:8000/api-token-auth/",C.t.cf(P.L(["username",a,"password",b],p,p)),o),$async$oj)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/api-token-auth/",C.t.cf(P.L(["username",a,"password",b],p,p)),o),$async$oj)
 case 3:n=d
 p=n.b
 if(p===201||p===200){q=C.t.a5(0,B.bo(U.bn(n.e).c.a.h(0,"charset")).a5(0,n.x))
@@ -51637,7 +51637,7 @@ while(true)switch(t){case 0:q=r.a
 p=u.N
 o=P.L(["authorization",C.c.H("Token ",q.c.b),"Content-Type","application/json"],p,p)
 t=2
-return P.M(G.df("http://83.212.75.78:8000/app/posts/",C.t.cf(P.L(["type",q.e,"text",q.x,"user",J.b9(q.r)],p,p)),o),$async$$0)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/",C.t.cf(P.L(["type",q.e,"text",q.x,"user",J.b9(q.r)],p,p)),o),$async$$0)
 case 2:if(b.b===201){p=u.z
 q=V.aV(new N.LT(q),null,p)
 K.aI(r.b).aS(q,p)}else throw H.c(P.af("Failed to save post"))
@@ -51732,7 +51732,7 @@ var $async$oD=P.D(function(k,l){if(k===1)return P.E(l,s)
 while(true)switch(t){case 0:q=u.N
 p=P.L(["content-type","application/json"],q,q)
 t=3
-return P.M(G.df("http://83.212.75.78:8000/app/doctors/",C.t.cf(P.L(["user",P.L(["username",c,"password",a,"email",b],q,q),"firstName",d,"lastName",e,"gender",f,"telephone",g,"notes",h,"dateOfBirth",i,"specialization",j],q,u.K)),p),$async$oD)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/doctors/",C.t.cf(P.L(["user",P.L(["username",c,"password",a,"email",b],q,q),"firstName",d,"lastName",e,"gender",f,"telephone",g,"notes",h,"dateOfBirth",i,"specialization",j],q,u.K)),p),$async$oD)
 case 3:o=l
 q=o.b
 if(q===201||q===200){r=o
@@ -52099,7 +52099,7 @@ while(true)switch(t){case 0:q=r.a
 p=u.N
 o=P.L(["authorization","Token "+H.a(q.cy.b),"content-type","application/json"],p,p)
 t=2
-return P.M(G.df("http://83.212.75.78:8000/app/health/score/",C.t.cf(P.L(["mobility",q.d,"selfCare",q.f,"usualActivities",q.x,"painDiscomfort",q.z,"anxietyDepression",q.ch],p,u.S)),o),$async$$0)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/health/score/",C.t.cf(P.L(["mobility",q.d,"selfCare",q.f,"usualActivities",q.x,"painDiscomfort",q.z,"anxietyDepression",q.ch],p,u.S)),o),$async$$0)
 case 2:if(b.b===201){p=u.z
 q=V.aV(new A.a__(q),null,p)
 K.aI(r.b).aS(q,p)}else throw H.c(P.af("Failed to load post"))
@@ -52113,7 +52113,7 @@ A.a_1.prototype={
 $0:function(){var t=0,s=P.H(u.P),r=this,q,p,o,n
 var $async$$0=P.D(function(a,b){if(a===1)return P.E(b,s)
 while(true)switch(t){case 0:q=r.a
-p="http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(q.dy)+"/health_score/")
+p="https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/cot_action/member/"+H.a(q.dy)+"/health_score/")
 o=u.N
 n=P.L(["authorization","Token "+H.a(q.cy.b),"content-type","application/json"],o,o)
 t=2
@@ -52226,7 +52226,7 @@ var $async$$0=P.D(function(a,b){if(a===1)return P.E(b,s)
 while(true)switch(t){case 0:q=r.a
 p=u.N
 t=2
-return P.M(G.a8p("http://83.212.75.78:8000"+("/app/read/health/notification/"+H.a(J.h(J.h(q.d,r.b),"notification_id"))+"/"),null,P.L(["authorization",C.c.H("Token ",q.f.b)],p,p)),$async$$0)
+return P.M(G.a8p("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000"+("/app/read/health/notification/"+H.a(J.h(J.h(q.d,r.b),"notification_id"))+"/"),null,P.L(["authorization",C.c.H("Token ",q.f.b)],p,p)),$async$$0)
 case 2:if(b.b===204){p=u.z
 q=V.aV(new X.a_k(q),null,p)
 K.aI(r.c).aS(q,p)}else throw H.c(P.af("Failed to save post"))
@@ -52247,7 +52247,7 @@ var $async$od=P.D(function(c,d){if(c===1)return P.E(d,s)
 while(true)switch(t){case 0:p=u.N
 o=P.L(["content-type","application/json"],p,p)
 t=3
-return P.M(G.df("http://83.212.75.78:8000/api-token-auth/",C.t.cf(P.L(["username",a,"password",b],p,p)),o),$async$od)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/api-token-auth/",C.t.cf(P.L(["username",a,"password",b],p,p)),o),$async$od)
 case 3:n=d
 p=n.b
 if(p===201||p===200){q=C.t.a5(0,B.bo(U.bn(n.e).c.a.h(0,"charset")).a5(0,n.x))
@@ -52688,7 +52688,7 @@ while(true)switch(t){case 0:q=r.a
 p=u.N
 o=P.L(["authorization",C.c.H("Token ",q.c.b),"content-type","application/json"],p,p)
 t=2
-return P.M(G.df("http://83.212.75.78:8000/app/posts/",C.t.cf(P.L(["type",q.e,"text",q.y],p,p)),o),$async$$0)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/",C.t.cf(P.L(["type",q.e,"text",q.y],p,p)),o),$async$$0)
 case 2:if(b.b===201){p=u.z
 q=V.aV(new B.SP(q),null,p)
 K.aI(r.b).aS(q,p)}else throw H.c(P.af("Failed to save post"))
@@ -52707,7 +52707,7 @@ while(true)switch(t){case 0:q=r.a
 p=u.N
 o=P.L(["authorization",C.c.H("Token ",q.c.b),"content-type","application/json"],p,p)
 t=2
-return P.M(G.df("http://83.212.75.78:8000/app/posts/",C.t.cf(P.L(["type",q.e,"text",q.y,"user",q.r],p,u.K)),o),$async$$0)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/posts/",C.t.cf(P.L(["type",q.e,"text",q.y,"user",q.r],p,u.K)),o),$async$$0)
 case 2:if(b.b===201){p=u.z
 q=V.aV(new B.SO(q),null,p)
 K.aI(r.b).aS(q,p)}else throw H.c(P.af("Failed to save post"))
@@ -53204,7 +53204,7 @@ var $async$oE=P.D(function(j,k){if(j===1)return P.E(k,s)
 while(true)switch(t){case 0:q=u.N
 p=P.L(["content-type","application/json"],q,q)
 t=3
-return P.M(G.df("http://83.212.75.78:8000/app/patients/",C.t.cf(P.L(["user",P.L(["username",c,"password",a,"email",b],q,q),"firstName",d,"lastName",e,"gender",f,"telephone",g,"notes",h,"dateOfBirth",i],q,u.K)),p),$async$oE)
+return P.M(G.df("https://cors-anywhere.herokuapp.com/http://83.212.75.78:8000/app/patients/",C.t.cf(P.L(["user",P.L(["username",c,"password",a,"email",b],q,q),"firstName",d,"lastName",e,"gender",f,"telephone",g,"notes",h,"dateOfBirth",i],q,u.K)),p),$async$oE)
 case 3:o=k
 q=o.b
 if(q===201||q===200){r=o
