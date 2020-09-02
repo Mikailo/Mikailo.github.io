@@ -80010,7 +80010,7 @@ D.au4.prototype={
 $1:function(a){return D.II()},
 $S:57}
 D.au8.prototype={
-$2:function(a,b){var s=this.a,r=J.n(J.n(s.z,b),"num_of_likes"),q=J.n(J.n(s.z,b),"liked"),p=J.n(J.n(s.z,b),"care_team"),o=J.n(J.n(J.n(s.z,b),"person"),"username"),n=J.n(J.n(s.z,b),"text")
+$2:function(a,b){var s=this.a,r=J.n(J.n(s.z,b),"num_of_likes"),q=J.n(J.n(s.z,b),"liked"),p=J.n(J.n(s.z,b),"care_team"),o=J.n(J.n(J.n(s.z,b),"person"),"firstName"),n=J.n(J.n(s.z,b),"text")
 return B.aUC(p,q,o,r,J.n(J.n(s.z,b),"num_of_comments"),s.e,J.n(J.n(s.z,b),"postId"),s.x,s.r,n,J.n(J.n(s.z,b),"type"),s.d)},
 $C:"$2",
 $R:2,
